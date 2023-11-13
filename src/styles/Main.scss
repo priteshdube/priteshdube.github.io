@@ -1,0 +1,316 @@
+.home{
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+
+    >div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >p{
+            font: 500 1.2rem 'Mooli';
+            margin: 1rem 1.5rem;
+            letter-spacing: 3px;
+            word-spacing: 10px;
+            >span{
+                font: 900 1.5rem 'Mooli';
+            }
+        }
+        >button{
+            display: block;
+            border: none;
+            outline: none;
+            padding: 0.5rem 1rem;
+            margin-left: -35rem;
+            background-color: black;
+            animation: zoom 0.8s infinite alternate;
+            border-radius: 25px;
+           
+            
+            >a{
+                font: 500 1.2rem 'Mooli';
+                color: white;
+                text-decoration: none;
+            }
+
+            &:hover{
+               filter: opacity(0.8);
+                
+            }
+
+
+        }
+
+        >img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20%;
+            border: 2px solid black;
+
+        }
+        >div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+           
+            
+          >div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 1rem;
+            background-color: white;
+            animation: imgup 1s infinite alternate;
+            height: 7rem;
+            width: 7rem;
+            border-radius: 50%;
+            
+    
+            transition: all 0.3s ease-in-out ;
+
+            &:hover{
+                filter: invert(1);
+            }
+
+
+            >a{
+               color: inherit;
+                >svg{
+                    font-size: 4rem;
+                  
+               }
+            }
+
+           >p{
+            font: 500;
+           }
+        }
+    }
+}
+}
+
+
+.home2{
+   width: 100%;
+   height: 100vh;
+   >h1{
+    text-align: center;
+    font: 900 3rem'Mooli';
+    margin: 3rem;
+   }
+
+   >div> .college{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   padding-left: 2rem;
+    width: 70%;
+    background-color: rgb(212, 197, 197);
+    border-radius: 0 50px 50px 0;
+    height: 40vh;
+    margin-bottom: 2rem;
+   
+
+    
+    >img{
+        margin: 1rem;
+        border-radius: 50px;
+        box-shadow: 0px 2px 3px 2px rgba(0,0,0,0.5);
+        
+        
+    }
+   }
+
+   >div>.school{
+    display: flex;
+    
+    align-items: center;
+
+    width: 70%;
+    background-color: rgb(212, 197, 197);
+    border-radius: 50px 0 0 50px;
+    height: 40vh;
+    margin-bottom: 2rem;
+    margin-left: 30%;
+    padding-left: 2rem;
+   
+    
+    >img{
+        margin: 1rem;
+        border-radius: 50px;
+        box-shadow: 0px 2px 3px 2px rgba(0,0,0,0.5);
+        
+    }
+
+   }
+}
+
+
+.home3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+    >h1{
+        text-align: center;
+        font: 900;
+        margin: 3rem;
+    }
+    >div{
+        width: 70%;
+        height: 30vh;
+      margin: 2rem;
+      padding: 1rem;
+      background-color: antiquewhite;
+      border-radius: 20px;
+      box-shadow: 0px 2px 3px 2px rgba(0,0,0,0.5);
+      transition: all 0.3s ease-in-out ;
+      display: flex;
+      flex-direction: column;
+        justify-content: center;
+        align-items: start;
+   
+
+    
+      
+    }
+}
+
+.home4{
+    width: 100%;
+   
+   
+   >h1{
+    text-align: center;
+    font: 900 3rem'Mooli';
+    margin: 3rem;
+   }
+
+   >div{
+   display: grid;
+   grid-template-columns: 50% 50%;
+//    border: 2px solid black;
+
+   
+    >div{
+        
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        padding: 2rem 2rem;
+        flex-direction: column;
+        background-color: rgb(228, 235, 235);
+
+        >h1{
+            font: 900 2rem 'Mooli';
+            margin: 1rem;
+        }
+
+        >p{
+            line-height: 1.5rem;
+        }
+        >a{
+            text-decoration: none;
+            color: black;
+            font: 500 1.3rem 'Roboto';
+            margin: 1rem;
+            display: block;
+            padding: 1rem;
+            transition: all 0.3s ease-in-out ;
+
+
+            &:hover{
+                color: blue;
+                transform: scale(1.1);
+            }
+
+        }
+    
+    }
+
+   }
+}
+
+.home5{
+    >h1{
+        font: 900 3rem 'Mooli';
+        text-align: center;
+        margin: 3rem;
+
+    }
+
+    >div{
+        width: 100%;
+        height: 50vh;
+        // background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+;
+
+        >form{
+           width: 70vw;
+            
+           >div{
+            padding: 0.5rem;
+            
+            >label{
+                font: 500 1.2rem 'Mooli';
+                margin: 1rem;
+                width: 5rem;
+                display: inline-block;
+               
+            }
+            >input{
+                width: 70%;
+                height: 2rem;
+                padding: 5px;
+            }
+
+           
+            
+           }
+
+           >button{
+            width: 20%;
+            height: 2rem;
+            padding: 5px;
+            margin: 1rem;
+           
+            background-color: black;
+            color: white;
+            font: 500 1.2rem 'Mooli';
+            border-radius: 20px;
+            transition: all 0.3s ease-in-out ;
+
+           }
+        }
+    }
+}
+
+@keyframes imgup {
+    to{
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes zoom {
+    to{
+        transform: scale(1.1);
+    }
+}
