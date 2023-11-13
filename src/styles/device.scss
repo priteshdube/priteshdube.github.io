@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   nav {
     h1 {
       display: none;
@@ -16,11 +16,12 @@
 
     div {
       width: 100%;
-      margin: 0;
-      > a {
-        margin: 0;
-        padding: 3px;
-      }
+      // border: 2px solid black;
+      display: flex ;
+      justify-content: center;
+     >a:first-child{
+      display: none;
+     }
     }
   }
   .home {
@@ -41,7 +42,8 @@
     background-color: white;
     width: 100%;
     height: fit-content;
-    display: block;
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.5);
     margin: 1rem;
     padding: 10px;
@@ -49,59 +51,56 @@
 }
   
    
-    > div {
-      display: block;
-    }
-  }
-
-  .home2 > div > .school {
-    background-color: white;
-    width: 100%;
-    height: fit-content;
-    display: block;
-    margin: 1rem;
-    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    
-  
- 
-    > div {
-      display: block;
-    }
-  }
-
-  .home3{
-    width: 100%;
-    height: fit-content;
-    margin-top: 2rem;
-  
-
-   > div{
-    background-color: #dcd2d2;
-    box-shadow: none;
-    width: 100%;
-    height: fit-content;
-    margin: 1rem 0;
-    border: 2px solid black;
-   }
-  }
-
-  .home4{
-    width: 100%;
-    // height: fit-content;
-
-    >div{
-      width: 100%;
-      height: fit-content;
-      margin: 1rem 0;
-      display: block;
-    }
-
-    .home5{
-      width: 100%;
-      height: fit-content;
    
-    }
-  }
- 
+    
 
+    .home2>div>.school{
+      background-color: white;
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.5);
+      margin: 1rem;
+      padding: 10px;
+      
+    }
+      .home3{
+        width: 100%;
+        height: fit-content;
+        margin-top: 2rem;
+      
+    
+       > div{
+        background-color: #dcd2d2;
+        box-shadow: none;
+        width: 100%;
+        height: fit-content;
+        margin: 1rem 0;
+        border: 2px solid black;
+       }
+      }
+    
+      .home4{
+        width: 100%;
+        // height: fit-content;
+        
+        >div{
+          width: 100%;
+          height: fit-content;
+          margin: 1rem 0;
+          display: block;
+        }
+        }
+        .home5{
+          width: 100%;
+          height: fit-content;
+       
+        }
+        
+     
+
+  }  
+
+  
+    
