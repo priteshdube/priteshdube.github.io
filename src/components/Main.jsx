@@ -4,6 +4,8 @@ import pic from "../assets/pic.jpeg";
 import sjc from "../assets/sjc.jpeg";
 import xavier from "../assets/xavier.jpeg";
 
+
+
 // import {Carousel} from "react-responsive-carousel";
 import {
   AiFillGithub,
@@ -17,6 +19,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 const Main = () => {
   return (
     <>
+
       <div className="home" id="home">
         <div>
           <p>
@@ -258,7 +261,7 @@ const Main = () => {
             <h1>A tech Website</h1>
             <h2>Reactjs</h2>
             <p>Developed a demo-tech website for a company and deployed using vercel</p>
-            <a href="">View Source</a>
+            <a href="https://github.com/priteshdube/techservice">View Source</a>
           </div>
         </div>
       </div>
