@@ -1,6 +1,6 @@
 import React from "react";
 import resume from "../assets/Resume.pdf";
-import dp from "../assets/pic.jpeg";
+import dp from "../assets/pp.jpeg";
 import sjc from "../assets/sjc.jpeg";
 import xavier from "../assets/xavier.jpeg";
 
