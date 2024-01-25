@@ -1,6 +1,6 @@
 import React from "react";
 import resume from "../assets/Resume.pdf";
-import dp from "../assets/pp.jpeg";
+import pic from "../assets/pp.jpeg";
 import sjc from "../assets/sjc.jpeg";
 import xavier from "../assets/xavier.jpeg";
 
@@ -36,7 +36,7 @@ const Main = () => {
         </div>
 
         <div>
-          <img src={dp} alt="Pritesh Dube" />
+          <img src={pic} alt="Pritesh Dube" />
 
           <div>
             <div style={{ animationDelay: "0.2s" }}>
